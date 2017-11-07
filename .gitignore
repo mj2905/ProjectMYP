@@ -4,3 +4,4 @@
 *.html
 Data/
 .ipynb_checkpoints/
+*.bat
