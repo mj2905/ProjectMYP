@@ -1,7 +1,6 @@
 .DS_Store
 *.csv
 *.xls
-*.html
 Data/
 .ipynb_checkpoints/
 *.bat
