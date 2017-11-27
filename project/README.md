@@ -63,6 +63,14 @@ to move the dataset to a folder we could connect to with SCP to download it on o
 
 We also went to this <a href='http://jmcauley.ucsd.edu/data/amazon/'>link</a>, and we downloaded the Books and Kindle Store (ebooks) 5-core files.
 
+### Installing NLTK
+
+We will need NLTK to analyse the text of the reviews, more precisely we will use the package Vader.
+
+To install NLTK `pip install nltk` 
+
+Then in a notebook, run `nltk.download()` or `nltk.download_shell()` if the first command didn't work. Then type `d` and `vader_lexicon` to download the necessary files for Vader to work.
+
 ### Reading the DataSet
 
 Since the metadata file was too big (10 Go, for 9430088 entries), we created a function to read it line by line.
@@ -92,7 +100,23 @@ So we are still looking for a solution to this. If we manage to get this amazon 
 
 ### Reviews analysis
 
-In parallel to our merging issues, we are trying find a way to get the sentiment from the individual reviews, using a library named "nltk". We also trying for get a weight of the review according to its 'helpful" score.
+In parallel to our merging issues, we computed the scores each books and ebooks. We use two approaches:
+
+1) A weighted average of the stars taking into account the helpfulness of the review as described below.
+
+Let $s_{i,j}$ be the $j$th rating of book $i$ and $n$ the number of ratings for this book. As other users can review a review by saying whether it is helpful, let $k_{i,j}$ be the number review reviewer for $s_{i,j}$ and let $u_{i,j}$ be the number of reviewer who found the review helpful among the $k_{i,j}$ reviewers. Then we can describe the weight as follows:
+
+$ w_{i,j}=\cases{u_{i,j}k_{i,j},  \text{ if } k_{i,j}≠0\\0.5, \text{ if } k_{i,j}=0}$ 
+
+The weighted average is then:
+
+$S_i=\frac{\sum_{j=1}^{n}w_{i,j}s_{i,j}}{\sum_{j=1}^nw_{i,j}}$
+
+2) A weighted average of the sentiment's intensity in the review taking into account the helpfulness with the weight being derived similarly as above.
+
+Here we are going to use the VADER (Valence Aware Dictionary sEntiment Reasoner) sentiment analyzer from the nltk package. VADER is based on lexicons of sentiment-related words and each words is rated as whether it is positive and negative, and how negative or positive it is. For example, the 'excellent' would be treated as more positive than 'good'.
+
+Although Vader is not the most accurate tool and to analyse a piece of text it checks if any of the words in the text are present in the lexicon, therefore its accuracy depends on the coverage of the lexicons. It is the easiest approach we have for the moment as we cannot train a classifier since we don't have a proper training set.
 
 
 ### To answer the basic questions for milestone 2
