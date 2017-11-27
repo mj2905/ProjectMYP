@@ -74,7 +74,7 @@ One of the first problems was that some ebooks were in the same category as regu
 
 In order to compare the books and ebooks, we need to be able to merge them. However we don't have any column of our data that allows us to do a proper merge. The title for the ebooks is only given for 44 of the entries.  
 
-From there we tried many differents things. All we could really use was the ASIN of the ebooks that we could easily get from the Kindle Store 5-core reviews. So we tried scrapping Amazon for the ebooks information. But it turns out that amazon has a pretty efficient anti-bot system, and our programm was thus really ineficient at scraping. We tried some tricks by changing the user agent but this would result in Amazon telling us to stop scrapping and use the API.
+From there we tried many differents things. All we could really use was the ASIN of the ebooks that we could easily get from the Kindle Store 5-core reviews. So we tried scrapping Amazon for the ebooks information. But it turns out that amazon has a pretty efficient anti-bot system, and our programm was thus really bad at scraping. We tried some tricks by changing the user agent but this would result in Amazon telling us to stop scrapping and use the API.
 
 To use the API, we would have to register using a credit card. So because of this and because we found out so close to the deadline, we decided for the moment not to use it. We applied for a student account, but as I am writing we are still waiting for the approval of our request.
 
@@ -85,6 +85,8 @@ With most of the ebooks titles available to us, we then applied a merging on tho
 
 More importantly, we also found that some of the matches were for books and ebooks that didn't have the same content.
 So we would need to also get the author of the books in order to have a better match, but this we cannot obtain from http://asindb.com/, so back to square 1.
+
+We did try to use other services like the library genesis, but unfortunately we cannot get a book from its ASIN.
 
 So we are still looking for a solution to this. If we manage to get this amazon AWS student account, we will be good.
 
@@ -97,9 +99,9 @@ In parallel to our merging issues, we are trying find a way to get the sentiment
 
 1) We can handle the data in its size : we already filtered it to get what we are interested into.  
 2) We understand what is into the data : we certainly know what is missing in the data and what we will use in it.  
-3) We considered ways to enrich, filter, transform the data according to your needs : yes we are because we need more details  on each entries than what is given.  
+3) We considered ways to enrich, filter, transform the data according to your needs : yes we do, because we need more details on each entries than what is given.  
 
-Our new plan is now to find a way to get all the metadata we needl, which we hope to be able to do using the amazon AWS student account we applied for.
+Our new plan is now to find a way to get all the metadata we need, which we hope to be able to do using the amazon AWS student account we applied for.
 
 Our final objective haven't changed, but we realized many obstacle are on our path, and we are finding solutions for them.
 
