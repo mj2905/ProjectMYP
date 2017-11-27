@@ -1,13 +1,15 @@
 # Books versus eBooks : The customer's choice
 
-# Abstract
+## Milestone 1
+
+### Abstract
 A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
 ----
 
 There has been a lot of discussions about the difference between books and ebooks, some arguing that the former is better than the latter [https://devicebar.com/articles/ebooks-vs-books-pros-and-cons/2041/], as it may be easier to focus on it, and the feeling when reading a physical copy is better. However, there are some additions like interactivity, hyperlinks and functionalities, inherent to the ebook format, that may have a positive impact on readers. Thus, it's legitimate to ask ourselves whether people, for the same content, tend to prefer the virtual or physical format, if we base our reasoning on real data, and not on subjective reasons. For this study, we will use the Amazon database, in which we do have reviews and grades for different books and ebooks.
 
-# Research questions
+### Research questions
 A list of research questions you would like to address during the project. 
 
 ----
@@ -18,7 +20,7 @@ What is the price difference between the two supports, globally and per book cat
 
 Per region, what is the favorite format between virtual and physical ?
 
-# Dataset
+### Dataset
 List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
 
 ----
@@ -27,7 +29,7 @@ We want to use the Amazon database, especially the Book and Kindle Store parts. 
 
 
 
-# A list of internal milestones up until project milestone 2
+### A list of internal milestones up until project milestone 2
 Add here a sketch of your planning for the next project milestone.
 
 ----
@@ -44,7 +46,7 @@ See if we can use some kind of machine learning algorithm to infer the country (
 
 Use some vizualisation techniques to show our results : for the region specific question, it will depend on the reviewers location spreading. If all of them are in the US, it would be more US specific, in a per state manner. Otherwise we will work with countries and regions.
 
-# Questions for TAs
+### Questions for TAs
 Add here some questions you have for us, in general or project-specific.
 
 ----
@@ -84,8 +86,6 @@ With most of the ebooks titles available to us, we then applied a merging on tho
 More importantly, we also found that some of the matches were for books and ebooks that didn't have the same content.
 So we would need to also get the author of the books in order to have a better match, but this we cannot obtain from http://asindb.com/, so back to square 1.
 
-We have looked at other solutions like the library genesis, but we cannot find books by their ASIN.
-
 So we are still looking for a solution to this. If we manage to get this amazon AWS student account, we will be good.
 
 ### Reviews analysis
@@ -102,5 +102,4 @@ In parallel to our merging issues, we are trying find a way to get the sentiment
 Our new plan is now to find a way to get all the metadata we needl, which we hope to be able to do using the amazon AWS student account we applied for.
 
 Our final objective haven't changed, but we realized many obstacle are on our path, and we are finding solutions for them.
-
 
