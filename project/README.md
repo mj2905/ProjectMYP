@@ -125,7 +125,11 @@ Although Vader is not the most accurate tool and to analyse a piece of text it c
 2) We understand what is into the data : we certainly know what is missing in the data and what we will use in it.  
 3) We considered ways to enrich, filter, transform the data according to your needs : yes we do, because we need more details on each entries than what is given.  
 
-Our new plan is now to find a way to get all the metadata we need, which we hope to be able to do using the amazon AWS student account we applied for.
+For all our analysis, we are currently stuck while waiting to have our data.
+However, using the "bad" data we got so far, we already have some analysis pipeline.
 
-Our final objective haven't changed, but we realized many obstacle are on our path, and we are finding solutions for them.
+For the price analysis, we will use the same merged data that we need.
+But for the region analysis, we are not sure we will be able to get the regional data, since its already hard to get anything else.
+We will maybe thus explore the length of the books and ebooks to see the public preference.
 
+Let's insist the all of this is based on the hope we manage to find a way to extract the data (for example with AWS).
