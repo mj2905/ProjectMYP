@@ -49,3 +49,56 @@ Add here some questions you have for us, in general or project-specific.
 
 ----
 
+## Milestone 2
+
+### Downloading the DataSet :
+
+We accessed the cluster using ssh@iccluster060.iccluster.epfl.ch, then using 
+```shell
+hadoop fs -get /datasets/productGraph/metadata.json /buffer
+```
+to move the dataset to a folder we could connect to with SCP to download it on our computer.
+
+We also went to this <a href='http://jmcauley.ucsd.edu/data/amazon/'>link</a>, and we downloaded the Books and Kindle Store (ebooks) 5-core files.
+
+### Reading the DataSet
+
+Since the metadata file was too big (10 Go, for 9430088 entries), we created a function to read it line by line.
+Using this function we filtered the file by categories to get one file with the metadata for the books, and one for the metadata of the ebooks.  
+
+One of the first problems was that some ebooks were in the same category as regular books, but since we will later merge the two, this was not a real problem.
+
+### Merging the books and ebooks
+
+In order to compare the books and ebooks, we need to be able to merge them. However we don't have any column of our data that allows us to do a proper merge. The title for the ebooks is only given for 44 of the entries.  
+
+From there we tried many differents things. All we could really use was the ASIN of the ebooks that we could easily get from the Kindle Store 5-core reviews. So we tried scrapping Amazon for the ebooks information. But it turns out that amazon has a pretty efficient anti-bot system, and our programm was thus really ineficient at scraping. We tried some tricks by changing the user agent but this would result in Amazon telling us to stop scrapping and use the API.
+
+To use the API, we would have to register using a credit card. So because of this and because we found out so close to the deadline, we decided for the moment not to use it. We applied for a student account, but as I am writing we are still waiting for the approval of our request.
+
+Since merging from the metadata alone is not possible, we had to find something else.
+And we did find a third-party website, http://asindb.com/, that allows us to get at least the title of our ebook given the ASIN. Using this, we couldn't get all the data, but we managed to get most of it.  
+
+With most of the ebooks titles available to us, we then applied a merging on those titles with the book dataset (with different tricks to get the most matchings). However we quickly found out that almost all the matches we got were duplicates, with only 148 uniques matches.
+
+More importantly, we also found that some of the matches were for books and ebooks that didn't have the same content.
+So we would need to also get the author of the books in order to have a better match, but this we cannot obtain from http://asindb.com/, so back to square 1.
+
+So we are still looking for a solution to this. If we manage to get this amazon AWS student account, we will be good.
+
+### Reviews analysis
+
+In parallel to our merging issues, we are trying find a way to get the sentiment from the individual reviews, using a library named "nltk". We also trying for get a weight of the review according to its 'helpful" score.
+
+
+### To answer the basic questions for milestone 2
+
+1) We can handle the data in its size : we already filtered it to get what we are interested into.  
+2) We understand what is into the data : we certainly know what is missing in the data and what we will use in it.  
+3) We considered ways to enrich, filter, transform the data according to your needs : yes we are because we need more details  on each entries than what is given.  
+
+Our new plan is now to find a way to get all the metadata we needl, which we hope to be able to do using the amazon AWS student account we applied for.
+
+Our final objective haven't changed, but we realized many obstacle are on our path, and we are finding solutions for them.
+
+
