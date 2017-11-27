@@ -119,14 +119,14 @@ Here we are going to use the VADER (Valence Aware Dictionary sEntiment Reasoner)
 Although Vader is not the most accurate tool and to analyse a piece of text it checks if any of the words in the text are present in the lexicon, therefore its accuracy depends on the coverage of the lexicons. It is the easiest approach we have for the moment as we cannot train a classifier since we don't have a proper training set.
 
 
-### To answer the basic questions for milestone 2
+### To answer the questions for milestone 2
 
-1) We can handle the data in its size : we already filtered it to get what we are interested into.  
-2) We understand what is into the data : we certainly know what is missing in the data and what we will use in it.  
+1) We can handle the data in its size : we already filtered it to get what we are interested into. For the metadatas and 5-core files, we have created smaller files containing what we want, and it runs pretty much quickly (except the first time, when we set the booleans at the beginning of the notebook to true). There is just one bottleneck : retrieving the title (and other informations like the author). The algorithm used to retrieve the title information took 2.5 hours to request 4000 asins. As there are around 60000 ebooks asin to retrieve, it can take a long time (with the actual configuration).
+2) We understand what is into the data : We know now that the title information for ebooks and author information for all are missing. Thus, we need to retrieve those.
 3) We considered ways to enrich, filter, transform the data according to your needs : yes we do, because we need more details on each entries than what is given.  
 
 For all our analysis, we are currently stuck while waiting to have our data.
-However, using the "bad" data we got so far, we already have some analysis pipeline.
+However, using incorrect data, we got at the point where we already have some analysis pipeline.
 
 For the price analysis, we will use the same merged data that we need.
 But for the region analysis, we are not sure we will be able to get the regional data, since its already hard to get anything else.
