@@ -76,31 +76,29 @@ Then in a notebook, run `nltk.download()` or `nltk.download_shell()` if the firs
 Since the metadata file was too big (10 Go, for 9430088 entries), we created a function to read it line by line.
 Using this function we filtered the file by categories to get one file with the metadata for the books, and one for the metadata of the ebooks.  
 
-One of the first problems was that some ebooks were in the same category as regular books, but since we will later merge the two, this was not a real problem.
-
 ### Merging the books and ebooks
 
 In order to compare the books and ebooks, we need to be able to merge them. However we don't have any column of our data that allows us to do a proper merge. The title for the ebooks is only given for 44 of the entries.  
 
-From there we tried many differents things. All we could really use was the ASIN of the ebooks that we could easily get from the Kindle Store 5-core reviews. So we tried scrapping Amazon for the ebooks information. But it turns out that amazon has a pretty efficient anti-bot system, and our programm was thus really bad at scraping. We tried some tricks by changing the user agent but this would result in Amazon telling us to stop scrapping and use the API.
+From there we tried many differents things. All we could really use was the ASIN of the ebooks that we could easily get from the Kindle Store 5-core reviews. So we tried scrapping Amazon for the ebooks information. But it turns out that amazon has a pretty efficient anti-bot system, and our program was thus quickly told that it was doing something improperly. We tried some tricks by changing the user agent but this would result in Amazon telling us to stop scrapping and use the API.
 
-To use the API, we would have to register using a credit card. So because of this and because we found out so close to the deadline, we decided for the moment not to use it. We applied for a student account, but as I am writing we are still waiting for the approval of our request.
+To use the API, we would have to register using a credit card, so we decided to try finding an alternative. We have also applied for a student account, but as even the day before the request, we are still waiting for the epfl approval.
 
 Since merging from the metadata alone is not possible, we had to find something else.
-And we did find a third-party website, http://asindb.com/, that allows us to get at least the title of our ebook given the ASIN. Using this, we couldn't get all the data, but we managed to get most of it.  
+And we did find a third-party website, http://asindb.com/, that allows us to get at least the title for some ebooks given the ASIN. Using this, we couldn't get all the data, but we managed to get part of it.  
 
-With most of the ebooks titles available to us, we then applied a merging on those titles with the book dataset (with different tricks to get the most matchings). However we quickly found out that almost all the matches we got were duplicates, with only 148 uniques matches.
+With some ebook titles available to us, we then applied a merge on those titles with the book dataset (with different tricks to get the most matchings). However we quickly found out that almost all the matches we got were duplicates, with only 148 uniques matches.
 
-More importantly, we also found that some of the matches were for books and ebooks that didn't have the same content.
-So we would need to also get the author of the books in order to have a better match, but this we cannot obtain from http://asindb.com/, so back to square 1.
+More importantly, we also found that most of the unique matches were for books and ebooks that don't have the same content.
+So we would need to also get the author of the books in order to have a better match, but we cannot obtain this information from http://asindb.com/, so we are back to square one.
 
-We did try to use other services like the library genesis, but unfortunately we cannot get a book from its ASIN.
+We did try to use other services like the library genesis or Gutenberg, but unfortunately we cannot get a book from its ASIN.
 
-So we are still looking for a solution to this. If we manage to get this amazon AWS student account, we will be good.
+So we are still looking for a solution. If we manage to get this amazon AWS student account, we will use it, otherwise we might think about use some credit card if really needed.
 
-### Reviews analysis
+### Review analysis
 
-In parallel to our merging issues, we computed the scores each books and ebooks. We use two approaches:
+In parallel to our merging issues, we computed the scores for each books and ebooks. We use two approaches:
 
 1) A weighted average of the stars taking into account the helpfulness of the review as described below.
 
