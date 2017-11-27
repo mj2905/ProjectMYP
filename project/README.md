@@ -84,6 +84,8 @@ With most of the ebooks titles available to us, we then applied a merging on tho
 More importantly, we also found that some of the matches were for books and ebooks that didn't have the same content.
 So we would need to also get the author of the books in order to have a better match, but this we cannot obtain from http://asindb.com/, so back to square 1.
 
+We have looked at other solutions like the library genesis, but we cannot find books by their ASIN.
+
 So we are still looking for a solution to this. If we manage to get this amazon AWS student account, we will be good.
 
 ### Reviews analysis
