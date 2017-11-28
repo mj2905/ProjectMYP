@@ -112,6 +112,15 @@ Here we are going to use the VADER (Valence Aware Dictionary sEntiment Reasoner)
 
 Although Vader is not the most accurate tool and to analyse a piece of text it checks if any of the words in the text are present in the lexicon, therefore its accuracy depends on the coverage of the lexicons. It is the easiest approach we have for the moment as we cannot train a classifier since we don't have a proper training set.
 
+For the sentiment, we actually average the score of the review summary and main text.
+
+3) What we do with it
+
+With those two scores (helpfulness and sentiment), we compute the mean of the sentiment for a given rating (1 star, 2 stars, ...) and we found that they increase accordingly (more positives reviews as the rating increase).  
+
+Then comparing the sentiment score for a given rating between books and ebooks, we observe that the books tends to have more positive reviews, at all levels of rating. This could be explained by the fact that people reading physical books would be more likely to write complete reviews.
+
+But let's keep in mind that we are working on a very limited dataset (~50 entries) that we know is incorrect (same title for different content), so this analysis is just a showcase of our pipeline, and the results in the end might end up being very different.
 
 ### To answer the questions for milestone 2
 
