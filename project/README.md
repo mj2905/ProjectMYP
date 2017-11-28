@@ -116,7 +116,7 @@ For the sentiment, we actually average the score of the review summary and main 
 
 3) What we do with it
 
-With those two scores (helpfulness and sentiment), we compute the mean of the sentiment for a given rating (1 star, 2 stars, ...) and we found that they increase accordingly (more positives reviews as the rating increase).  
+With those two scores (helpfulness and sentiment), we compute the mean of the sentiment for a given rating (1 star, 2 stars, ...) and we found that they increase accordingly (more positives reviews as the rating increases).  
 
 Then comparing the sentiment score for a given rating between books and ebooks, we observe that the books tends to have more positive reviews, at all levels of rating. This could be explained by the fact that people reading physical books would be more likely to write complete reviews.
 
