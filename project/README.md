@@ -136,4 +136,4 @@ For the price analysis, we will use the same merged data that we need for the re
 But for the region analysis, we are not sure we will be able to get the regional data, since its already hard to get the author without Amazon AWS.
 The same argument might be applied to the question proposed in milestone 1, about analysing the length of books and ebooks to see the public preference.
 
-If we figure out a solution for this problem, we will work on it.
+If we quickly figure out a solution for this problem, we will work on them.
