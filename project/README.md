@@ -94,7 +94,7 @@ So we would need to also get the author of the books in order to have a better m
 
 We did try to use other services like the library genesis or Gutenberg, but unfortunately we cannot get a book from its ASIN.
 
-So we are still looking for a solution. If we manage to get this amazon AWS student account, we will use it, otherwise we might think about use some credit card if really needed.
+So we are still looking for a solution. If we manage to get this amazon AWS student account, we will use it, otherwise we might think about using our credit card if really needed.
 
 ### Review analysis
 
@@ -102,13 +102,9 @@ In parallel to our merging issues, we computed the scores for each books and ebo
 
 1) A weighted average of the stars taking into account the helpfulness of the review as described below.
 
-Let $s_{i,j}$ be the $j$th rating of book $i$ and $n$ the number of ratings for this book. As other users can review a review by saying whether it is helpful, let $k_{i,j}$ be the number review reviewer for $s_{i,j}$ and let $u_{i,j}$ be the number of reviewer who found the review helpful among the $k_{i,j}$ reviewers. Then we can describe the weight as follows:
+For each pair of book's review, we will compute a weight that is the number of positive votes for the review divided by the total number of votes for this review. If the review has no vote, we'll set the weight to 0,5.
 
-$ w_{i,j}=\cases{u_{i,j}k_{i,j},  \text{ if } k_{i,j}≠0\\0.5, \text{ if } k_{i,j}=0}$ 
-
-The weighted average is then:
-
-$S_i=\frac{\sum_{j=1}^{n}w_{i,j}s_{i,j}}{\sum_{j=1}^nw_{i,j}}$
+Then we will define a weighted rating average of the book, that will be defines as the sum of the product of the review's rating and its weight, which we will divide by the sum of all weigths (the formulas are given in the notebook).
 
 2) A weighted average of the sentiment's intensity in the review taking into account the helpfulness with the weight being derived similarly as above.
 
@@ -116,6 +112,15 @@ Here we are going to use the VADER (Valence Aware Dictionary sEntiment Reasoner)
 
 Although Vader is not the most accurate tool and to analyse a piece of text it checks if any of the words in the text are present in the lexicon, therefore its accuracy depends on the coverage of the lexicons. It is the easiest approach we have for the moment as we cannot train a classifier since we don't have a proper training set.
 
+For the sentiment, we actually average the score of the review summary and main text.
+
+3) What we do with it
+
+With those two scores (helpfulness and sentiment), we compute the mean of the sentiment for a given rating (1 star, 2 stars, ...) and we found that they increase accordingly (more positives reviews as the rating increases).  
+
+Then comparing the sentiment score for a given rating between books and ebooks, we observe that the books tends to have more positive reviews, at all levels of rating. This could be explained by the fact that people reading physical books would be more likely to write complete reviews.
+
+But let's keep in mind that we are working on a very limited dataset (~50 entries) that we know is incorrect (same title for different content), so this analysis is just a showcase of our pipeline, and the results in the end might end up being very different.
 
 ### To answer the questions for milestone 2
 
@@ -131,4 +136,4 @@ For the price analysis, we will use the same merged data that we need for the re
 But for the region analysis, we are not sure we will be able to get the regional data, since its already hard to get the author without Amazon AWS.
 The same argument might be applied to the question proposed in milestone 1, about analysing the length of books and ebooks to see the public preference.
 
-If we figure out a solution for this problem, we will work on it.
+If we quickly figure out a solution for this problem, we will work on them.
