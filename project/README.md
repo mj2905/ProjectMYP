@@ -85,10 +85,11 @@ tar -zxvf spark-1.6.3-bin-hadoop2.6.tgz
 YARN is the resources manager introduced with Hadoop 2.0. It takes care of the scalability of your Spark jobs and optimizes the usage of the cluster.
 [Download the archive](ADA_YARN.zip) with the configuration, and unpack it in a local directory.
 
-3) Set the env variables YARN_CONF_DIR and YARN_CONF_DIR.
+3) Set the env variables YARN_CONF_DIR SPARK_HOME and HADOOP_USER_NAME, and add spark to your path.
 
 ```sh
 export SPARK_HOME=<spark_directory>
+export PATH=$SPARK_HOME/bin:$PATH
 export YARN_CONF_DIR=<YARN_config_directory>
 export HADOOP_USER_NAME=username
 ```
