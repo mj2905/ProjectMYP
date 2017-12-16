@@ -71,6 +71,74 @@ To install NLTK `pip install nltk`
 
 Then in a notebook, run `nltk.download()` or `nltk.download_shell()` if the first command didn't work. Then type `d` and `vader_lexicon` to download the necessary files for Vader to work.
 
+### Set up Spark
+
+1) Install a local copy of Spark
+
+```Sh
+wget http://mirror.switch.ch/mirror/apache/dist/spark/spark-1.6.3/spark-1.6.3-bin-hadoop2.6.tgz
+tar -zxvf spark-1.6.3-bin-hadoop2.6.tgz
+```
+
+2) Download the YARN configuration for the ADA cluster
+
+YARN is the resources manager introduced with Hadoop 2.0. It takes care of the scalability of your Spark jobs and optimizes the usage of the cluster.
+[Download the archive](ADA_YARN.zip) with the configuration, and unpack it in a local directory.
+
+3) Set the env variables YARN_CONF_DIR SPARK_HOME and HADOOP_USER_NAME, and add spark to your path.
+
+```sh
+export SPARK_HOME=<spark_directory>
+export PATH=$SPARK_HOME/bin:$PATH
+export YARN_CONF_DIR=<YARN_config_directory>
+export HADOOP_USER_NAME=username
+```
+
+Where *<YARN_config_directory>* is the full path of the directory where you have the configuration files and *username* is your Gaspar Account.
+
+Note: this is temporary. If you want to avoid to type this setup every time you reboot you computer, update your shell config (i.e. $HOME/.bashrc)
+
+4) Create a new file called *spark-defaults.conf* in the config directory of Spark *(<spark_directory>/conf/spark-defaults.conf)* and add the the following lines:
+
+```sh
+spark.driver.extraJavaOptions -Dhdp.version=2.7.3
+spark.yarn.am.extraJavaOptions -Dhdp.version=2.7.3
+```
+
+This specifies the version of Hadoop that the ADA cluster is using.
+
+5) Install *findspark* for the integration with Jupiter Notebook
+
+```sh
+pip install findspark
+```
+
+6) Launch *pyspark* with optional parameters to save resources
+
+```sh
+pyspark --master yarn
+pyspark --master yarn --executor-memory 2G --executor-cores 5 --num-executors 4
+```
+
+7) Add the following line in your Jupyter Notebook
+
+```python
+import findspark
+findspark.init()
+import pyspark
+sc = pyspark.SparkContext(appName="Pi")
+from pyspark.sql import SQLContext
+sqlContext = SQLContext(sc)
+```
+
+And if you don't need spark but still need to run the notebook, it may be good to run
+
+```python
+sc.stop()
+```
+
+
+
 ### Reading the DataSet
 
 Since the metadata file was too big (10 Go, for 9430088 entries), we created a function to read it line by line.
