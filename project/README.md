@@ -212,7 +212,11 @@ If we quickly figure out a solution for this problem, we will work on them.
 In addition to libraries mentioned previously, we have used also bottlenose, which is a small library to obtain from here : https://github.com/lionheart/bottlenose, by using the setup.py file.
 
 For the contributions of all group members :
-Marc has worked on analysis data, scraping data (code and retrieve it), the analysis of the number of pages, the sales rank and the scores, and the report.
-Yves has worked on the scraping data (code and retrieve it), the report and will do the final presentation.
-Pierre-Alexandre has worked on the scraping data (retrieving it), and a lot on data analysis about sentiment and score, also on the report.
 
+Marc has worked on analysing the data, scraping the data (code and retrieve it), the analysis of the number of pages, the sales rank and the scores, and the report.
+
+Yves has worked on the scraping of data (code and retrieve it), the interpretation of the analysis, the report and will do the final presentation.
+
+Pierre-Alexandre has worked on the scraping of data (retrieving it), and a lot on data analysis about sentiment and score, also on the report.
+
+For the report, it's called ada2017.pdf : https://github.com/mj2905/ProjectMYP/blob/master/project/report/ada2017.pdf
