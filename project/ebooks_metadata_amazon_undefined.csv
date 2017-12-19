@@ -1,121 +1,273 @@
-,title,authors,manufacturer
-B000FC26RI,,,
-B000FDJ0FS,The Wall Street Journal,,Dow Jones & Company Inc.
-B000GFK7L6,The New York Times - Daily Edition for Kindle,,The New York Times Company
-B000HA4FKY,The Boston Globe,,The Boston Globe
-B000HC48T0,The Washington Post for Kindle (Ad-Free),,The Washington Post Company
-B000JMKU0Y,,,
-B000JMKX4W,,,
-B000JMKXYW,,,
-B000JML1QG,,,
-B000JML2H4,,,
-B000JML5JY,,,
-B000JMLHFG,,,
-B000JMLLOI,,,
-B000JQU8GQ,,,
-B000JQURFI,,,
-B000MAH8NU,,,
-B000MV9B66,Austin American-Statesman,,Austin American-Statesman
-B000N8V3EQ,Analog Science Fiction and Fact,,Dell Magazines
-B000N8V3FA,Ellery Queen's Mystery Magazine,,Dell Magazines
-B000N8V468,The International New York Times,,The International New York Times
-B000NJL7Y6,,,
-B000OI0FGC,,,
-B000OI11GK,,,
-B000PATZGK,The Nation,,The Nation
-B000PIT0RG,Reader's Digest,,Reader's Digest USA
-B000Q6Z64S,The New York Times - Latest News,,The New York Times Company
-B000Q9J0CY,,,
-B000QFOD8E,,,
-B000R93D4Y,,,
-B000R93D8U,,,
-B000R93DEO,,,
-B000R93DJE,,,
-B000R93DPS,,,
-B000R93DQC,,,
-B000R93DW6,,,
-B000R93E3E,,,
-B000SIZG8A,,,
-B000SRGF2W,,,
-B000SRGFEU,,,
-B000SWV6HG,,,
-B000UH5Z0I,,,
-B000UH5Z3A,,,
-B000UMZMK6,,,
-B000UMZMME,,,
-B000UMZMP6,,,
-B000VKVZP8,,,
-B000VKVZQM,,,
-B000VLCVAU,,,
-B000VWM0KU,,,
-B000W4RFNO,,,
-B000WCWUWM,,,
-B000WCWVN0,,,
-B000X1XI32,,,
-B000XZKZKM,,,
-B000ZC8DPM,,,
-B000ZKNRPK,,,
-B0010YVSB0,,,
-B0010Z5RHK,,,
-B0011TS2X6,,,
-B0012JLKJI,,,
-B0012JQZN4,,,
-B0012W11BM,,,
-B0012W11D0,,,
-B0013N88EI,,,
-B0015SY0JI,,,
-B0015YEQ6O,,,
-B0015YEQ6Y,,,
-B0015YEQ8W,,,
-B0015YEQCI,,,
-B0015Z7VF6,,,
-B0015Z7VFG,,,
-B0015Z7VFQ,,,
-B0015Z7VWE,,,
-B0015Z7WL4,,,
-B0016IXM8C,,,
-B0016IXM96,,,
-B0016IXMCI,,,
-B0016IXMDW,,,
-B0016IXMF0,,,
-B0017T0C2Y,,,
-B0017Y914Y,,,
-B001892DFC,,,
-B001892DG6,,,
-B001892DGG,,,
-B001892DGQ,,,
-B001892DH0,,,
-B001892DIO,,,
-B001892DJS,,,
-B001892DK2,,,
-B001892DWA,,,
-B001892DWK,,,
-B001892DX4,,,
-B001892EI8,,,
-B001892EIS,,,
-B00189ZCY6,,,
-B001949VGK,,,
-B001BAJA9K,Financial Times - US Edition,,The Financial Times Limited
-B001BMKG8M,,,
-B001BRD238,,,
-B001BXNQ0Q,,,
-B001BXNQ2O,,,
-B001BZW5CO,,,
-B001CMQ6JY,,,
-B001CMQ6P8,,,
-B001CN45IC,,,
-B001CN45KU,,,
-B001CN45MS,,,
-B001CN45ZA,,,
-B001CN47MG,,,
-B001CN47NA,,,
-B001CNR8HM,,,
-B001CNR8HW,,,
-B001CNR8KO,,,
-B001D64682,,,
-B001DBEQC8,,,
-B001DCD3ZI,,,
-B001DOHZ5A,,,
-B001DOHZ6O,,,
-B001DUGORO,,,
-B001DX54F4,,,
+,title,authors,manufacturer,rank,price,currency,reldate,page,language
+B000HA4FKY,The Boston Globe,,The Boston Globe,190418,2999,USD,2015-10-21,,English
+B000HC48T0,The Washington Post for Kindle (Ad-Free),,The Washington Post Company,54262,1199,USD,2013-11-11,,English
+B000MV9B66,Austin American-Statesman,,Austin American-Statesman,346771,999,USD,2013-11-11,,English
+B000N8V3EQ,Analog Science Fiction and Fact,,Dell Magazines,93187,299,USD,2017-05-24,,English
+B000N8V3FA,Ellery Queen's Mystery Magazine,,Dell Magazines,172506,299,USD,2017-05-24,,English
+B000N8V468,The International New York Times,,The International New York Times,178886,1499,USD,2013-11-11,,English
+B000PATZGK,The Nation,,The Nation,91012,199,USD,2017-05-23,,English
+B000PIT0RG,Reader's Digest,,Reader's Digest USA,34670,149,USD,2017-07-06,,English
+B000Q6Z64S,The New York Times - Latest News,,The New York Times Company,117674,199,USD,2017-02-27,,
+B001BAJA9K,Financial Times - US Edition,,The Financial Times Limited,109748,1499,USD,2013-11-11,,English
+B001KBZ3D2,"USA Today, Paid No-Ads Daily Edition",,USA TODAY,125043,1199,USD,2013-11-11,,English
+B001NPDA44,"Belkin Neoprene Kindle Case (Fits 6"" Display, 2nd Generation Kindle)",,Belkin Inc.,,,,2009-02-23,,
+B001O2SCKI,The New Yorker,,The New Yorker,42303,899,USD,2017-07-06,,English
+B001W1TZTS,Rapid Wall Home AC Charger for the Amazon Kindle all models including the Fire HD HDX DX / Touch / Keyboard (WiFi and 3G),,Gomadic,,2495,USD,,,
+B001W1XT40,Rapid mini 10W Car / Auto Charger for the Amazon Kindle all models including the Fire / HD / HDX / DX / Touch / Keyboard (WiFi and 3G),,Gomadic,,1995,USD,,,
+B001W1XT6I,Essential Kit for the Amazon Kindle / DX / Touch / Keyboard (WiFi and 3G) includes a Car and Wall Charger,,Gomadic,,2995,USD,,,
+B0026RHUQC,"Belkin Neoprene Kindle DX Case (Fits 10"" Display)",,Belkin,,3525,USD,2009-06-10,,
+B0027VSU9S,The Economist - US Edition,,The Economist,73224,999,USD,2017-02-09,,English
+B002Y27P4Q,"Amazon Kindle Replacement Power Adapter (Works with 6"", 9.7"" Display, 2nd and Latest Generation Kindles)",,"Amazon Digital Services, Inc",,,,,,
+B003CFB8T2,Mighty Bright XtraFlex2 Clip-On Light (Kindle Version) White,,Mighty Bright,,,,,,
+B003FZA1OW,Verso Clip-On Reading Light for Kindle (Graphite),,Rejects from Studios,,,,2013-01-01,,English
+B003HKRVAW,Belkin Clip-On Reading Light for Kindle (White),,Belkin,,1395,USD,,,
+B003U4VIXQ,"Timbuk2 Nylon Kindle Envelope Sleeve (Fits Kindle Keyboard), Black",,Timbuk2,,,,,,
+B0041KL6TY,Thanksgiving Tales: True Stories of the Holiday in America,,Sestin LLC,557683,,,2010-09-01,200,English
+B0042AM7L4,"M-Edge Trip Kindle Jacket, Black (Fits Kindle Keyboard)",,M-Edge,,,,,,
+B0047O2RNI,Bible Encyclopedia (ISBE),,OSNOVA,473057,,,2010-10-18,,English
+B004JXVOD6,"Kindle Leather Cover, Black, Updated Design (Fits Kindle Keyboard)",,"Amazon Digital Services, Inc",,,,,,
+B004MSQZUU,"Moshi Moonrock In-Ear Headphones, Black",,Moshi,,2699,USD,,,
+B004SBPM0A,Yo Mama! A Collection of 'Yo Mama' Insult Jokes,,Cherry Lane Ebooks,662764,,,2011-02-28,50,English
+B004SD26Z2,"Amazon Kindle Zip Sleeve, Graphite (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,"Amazon Digital Services, Inc",,,,,,
+B004SD27OC,"Amazon Kindle Zip Sleeve, Lime (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,"Amazon Digital Services, Inc",,,,,,
+B004SD27WE,"Amazon Kindle Zip Sleeve, Coral (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,"Amazon Digital Services, Inc",,,,,,
+B004SD283M,"Amazon Kindle Zip Sleeve, Charcoal (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,"Amazon Digital Services, Inc",,,,,,
+B004TOY9ZA,The Children's Book of Christmas Stories,,,,,,2011-03-24,211,English
+B004TOYJ6E,The Book of the Cat,,,,,,2011-03-24,38,English
+B004TPVFJM,Famous Adventures And Prison Escapes of the Civil War,,,,,,2011-03-24,268,English
+B004UKD6Q6,"One Young Man The simple and true story of a clerk who enlisted in 1914, who fought on the western front for nearly two years, was severely wounded at ... and is now on his way back to his desk.",,,,,,2011-03-30,150,English
+B004X1XEYG,INSPIRATIONAL QUOTES ULTIMATE COLLECTION:  3000+ Motivational Quotations With Special Humor Section,,Everlasting Flames Publishing,82712,,,2011-04-17,420,English
+B004ZHE5I2,Not Safe for Work (Neovella Book 1),,Neovella,1381466,,,2011-05-05,101,English
+B0056O36I8,Bubblin' Brown Sugar,,Kissed Publications,1915717,,,2011-06-17,107,English
+B005DMM7K6,Taste of Home Summer Slow Cooker Recipes,,Taste of Home/Reader's Digest Association,1779028,,,2011-07-19,235,English
+B005DOK8NW,Amazon 5W USB Charger (also compatible with other android and iOS devices),,"Amazon Digital Services, Inc",,,,2011-04-19,,
+B005DOKG70,"Amazon Kindle EU Power Adapter (Kindle, Kindle Touch, Kindle Keyboard, Kindle DX)",,"Amazon Digital Services, Inc",,,,,,
+B005DOKIYG,"Amazon Kindle Fire HDX 7"" Zip Sleeve, Blue (fits the all new Kindle Fire HD and HDX 7"")",,"Amazon Digital Services, Inc",,,,,,
+B005GJC01C,Moshi Tera Glove - Black,,moshi,,1995,USD,,,
+B005HSG3BA,Marware Jurni for Kindle Fire (Red/Black),,Marware,,1000,USD,,,
+B005HSG3L0,"MarBlue Atlas 1.0 Kindle Case Cover, Pink (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,MarBlue (Kindle Accessories),,,,,,
+B005HSG446,"Marware Eco-Vue Genuine Leather Case Cover for Kindle, Black (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,MarBlue (Kindle Accessories),,,,,,
+B005K2XM94,"Timbuk2 Kindle Fire Ballistic Envelope Sleeve with 360 degree protection, Black (does not fit Kindle Fire HD)",,Timbuk2 (Kindle Accessories),,,,,,
+B005KDY8AU,"Marware Eco-Flip Genuine Leather Case Cover for Kindle, Black (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,MarBlue (Kindle Accessories),,,,,,
+B005KELR3A,"Belkin Grip Sleeve for Kindle Paperwhite, Kindle, and Kindle Touch (Blacktop)",,Belkin,,,,,,
+B005KELU2S,Belkin Grip Sleeve for Kindle PNK,,Belkin Components,137068,,,,,
+B005MJE5ZK,Good Eating's Best of the Best: Great Recipes of the Past Decade from the Chicago Tribune Test Kitchen,,Agate Surrey,2328802,,,2011-08-09,113,English
+B005OOKNP4,"AmazonBasics Bluetooth Keyboard for Android Devices, Kindle, Kindle Fire - Black",,AmazonBasics,,2399,USD,,,English
+B005P2K36O,"JIVO Kindle Case Cover Brown Textured Leather Red Binding (Kindle Paperwhite, Kindle, and Kindle Touch)",,PCH International,,,,,,
+B005S1CYYQ,"Marware SportGrip Silicone Skin Case for Kindle Cover, Black (does not fit Kindle Paperwhite or Touch)",,MarBlue (Kindle Accessories),,,,2011-10-28,,
+B005YFNC92,The Wall Street Journal,,"Dow Jones & Company, Inc.",,0,USD,2017-12-01,,English
+B005Z1XCUO,Slow Cooker 101: Master the Slow Cooker with 101 Great Recipes,,Agate Surrey,1227950,,,2011-11-08,118,English
+B005ZISF8Q,Better Homes and Gardens Magazine,,Meredith Corporation,,0,USD,2015-04-16,,English
+B00609P9CY,Marware SportGrip for Kindle Touch (Black),,Marware,,,,,,
+B0060QU5ZS,Glamour Magazine  (Kindle Tablet Edition),,Condé Nast,,,,2011-10-28,,English
+B006298622,"Bible: New American Bible, Revised Edition 2011",,,25518,,,2011-10-31,,English
+B006BGZJJ4,"USB to Micro USB Cable, White",,"Amazon Digital Services, Inc",,,,,,
+B006CDVRME,"Verve Folio Stand for Kindle Fire, Black (will not fit HD or HDX models)",,Belkin Inc.,,,,,,English
+B006E76GJM,Case Logic FWS-101 Kindle Fire Water Resistant Sleeve Case (Black) (does not fit Kindle Fire HD),,Case Logic/Thule (Kindle Accessories),,,,,,
+B006GWO5NE,Amazon 5ft USB to Micro-USB Cable (works with most Micro-USB Tablets),,"Amazon Digital Services, Inc",,,,2012-09-14,,
+B006GWO5WK,Amazon Kindle 9W PowerFast Adapter for Accelerated Charging,,"Amazon Digital Services, Inc",,,,2012-09-14,,
+B006GWO7UA,Kindle PowerFast International Charging Kit (for accelerated charging in over 200 countries),,"Amazon Digital Services, Inc",,2500,USD,2012-11-01,,
+B006H9TJAA,"Volume 1, Taste and See, A Sampling of First Chapters by John 316 Marketing Network Authors",,Lorilyn Roberts,,,,2013-12-19,536,English
+B006L4S3OY,New York Post for Tablet,,New York Post,,0,USD,2017-11-20,,English
+B006PJ3UKC,USA TODAY,,USA TODAY,,0,USD,2017-12-01,,English
+B006PWHCN0,Stupid 911 Calls (Volume 1),,,88283,,,2011-12-24,14,English
+B006ZBWV0K,"Verso Prologue Cover for Kindle, Tan (fits Kindle Paperwhite, Kindle, and Kindle Touch)",,Rejects from Studios,,3499,USD,2013-01-01,,
+B0076D0ZRM,100 Heartwarming Stories From The Animal Rescue Site,,GreaterGood Network Publishing,702425,,,2012-02-06,103,English
+B0079UAT0A,Moshi iVisor AG Screen Protection for Kindle Fire (Anti-Glare) - Bubble Free Installation (will not fit HD or HDX models),,Moshi,,,,,,
+B007A3ANUC,30 Delicious No-Bake Icebox Cookie Recipes,,,748290,,,2012-02-15,109,English
+B007R5YDYA,"Amazon Kindle Paperwhite Leather Case, Saddle Tan - fits all Paperwhite generations",,"Amazon Digital Services, Inc",,,,2012-10-01,,
+B007R5YGO2,"Amazon Kindle Paperwhite Leather Case, Fuschia - fits all Paperwhite generations",,"Amazon Digital Services, Inc",,3999,USD,2012-10-01,,
+B007RHWU6Q,Kindle Fire Flipblade Stand by Belkin,,Belkin Inc.,,,,,,
+B007VL8Y5E,Grace Digital MatchStick (GDI-GFD7200) Charging Speaker Dock for Kindle Fire - Portrait and Landscape Modes,,Grace Digital,,,,,,
+B007W4NUX6,Quotes for Cats: And the Humans Who Love Them,,,1642445,,,2012-04-19,193,English
+B00825BZUY,"Amazon Kindle Fire HD 8.9"" Standing Leather Case, Onyx Black (will not fit HDX models)",,"Amazon Digital Services, Inc",,,,2012-11-02,,
+B008681Y30,"2-Year Protection Plan plus Accident Protection for Kindle Fire HD 8.9"" 4G",,Service Net,,,,2012-11-20,,
+B0086824IE,2-Year Protection Plan plus Accident Coverage for Kindle Fire (Previous Generation),,Service Net,,,,2012-09-14,,
+B008682C9U,"2-Year Protection Plan plus Accident Protection for Kindle Fire HD 8.9""",,Service Net,,,,2012-11-01,,
+B008864T5U,Jokes By Kids: Volume 1,,Feldman Publishing,947535,,,2012-05-31,128,English
+B008GEA2CS,Explicit Encounters - Sex When You Shouldn't (Xcite Best-Selling Collections Book 3),,Xcite Books,1029556,,,2012-06-29,208,English
+B008GGH4FY,"Amazon Kindle Fire HD 7"" (Previous Generation) Standing Leather Case, Onyx Black (will only fit Kindle Fire HD 7"", Previous Generation) - will not fit new Fire HD 7",,"Amazon Digital Services, Inc",,,,2012-09-14,,
+B008GGH5HQ,"Amazon Kindle Fire HD 7"" (Previous Generation) Standing Leather Case, Fuchsia (will only fit Kindle Fire HD 7"", Previous Generation)",,"Amazon Digital Services, Inc",,,,2012-09-14,,
+B008HJGPVO,AmazonBasics Capacitive Stylus for Touchscreen Devices - Black,,AmazonBasics,10524,796,USD,,,
+B008PWUO4W,"BUILT Kindle Slim Folio Case, Lush Flower, fits Kindle Paperwhite, Touch, and Kindle",,Built (Kindle Accessories),,,,,,
+B008S2D7K2,"iHome iK50B SMARTDESIGN Space Saver FM Stereo Alarm Clock/Charger for Kindle Fire, Black",,"Sound Design, Inc.",,,,,,
+B008ULPD0S,"Verso Trends Versailles Damask Case for Kindle Fire HD 7"" (Previous Generation) (will only fit Kindle Fire HD 7"", Previous Generation)",,Rejects from Studios,,,,2012-09-14,,
+B008UT34I8,"Moshi Dulcia In-Ear Headphones, Black",,Moshi,,4995,USD,,,
+B008X9ZBVI,"Belkin Glam Tab Standing Case for Kindle Fire HD 7"" (Previous Generation), Black (will only fit Kindle Fire HD 7"", Previous Generation)",,Belkin Inc.,,,,2012-09-14,,
+B00902NYU2,GENENE JONES: SERIAL KILLER: CODE BLUE EMERGENCY (TRUE CRIME; BUS STOP READS Book 20),,Goldmineguides.com,541919,,,2013-12-13,32,English
+B00902SFC4,"Marware Capacitive Stylus for Kindle Fire, Kindle Paperwhite and other Touchscreen Devices, Black",,Marware,,999,USD,,,
+B00902SJY8,Marware Anti-Scratch Screen Protector Kit for Kindle Fire HD 7 (Anti-Scratch),,Marware,,,,,,
+B0093HL028,Backwoods Home Magazine #120 - Nov/Dec 2009,,Backwoods Home Magazine,1321858,,,2009-11-01,244,English
+B009700HQQ,Backwoods Home Magazine #123 - May/June 2010,,Backwoods Home Magazine,1929796,,,2010-05-01,165,English
+B009875PZ6,Mixed Metaphor Madness Volume 1: Real Sayings by Real People From Real Meetings,,,1670332,,,2012-09-08,18,English
+B009DWBGOK,Backwoods Home Magazine #130 - Jul/Aug 2011,,Backwoods Home Magazine,1487688,,,2011-07-01,175,English
+B009GCF4RW,"Let's Talk Turkey . . . And All the Trimmings: 100 Delicious Holiday Recipes, Tips, and Ideas from America's Top Magazines",,Hearst,366133,,,2012-10-23,235,English
+B009GU8B3S,Kindle Paperwhite Skin Kit/Decal - Abolisher - Vincent Hie,,Decalgirl - Consignment (Kindle Accessories),,,,2012-10-01,,
+B009GU8J62,Kindle Paperwhite Skin Kit/Decal - Before The Storm - Iveta Abolina,,Decalgirl - Consignment (Kindle Accessories),,,,2012-10-01,,
+B009GU9I3U,"Kindle Fire HD 8.9"" Skin Kit/Decal - Annabelle (will not fit HDX models)",,Decalgirl - Consignment (Kindle Accessories),,,,2012-11-01,,
+B009HF6D7S,Backwoods Home Magazine #131 - Sept/Oct 2011,,Backwoods Home Magazine,406481,,,2011-09-01,176,English
+B009IZMTJI,"Tribeca Genuine Wood Ear Buds for Kindle Fire, Bubinga",,Tribeca - Licensed Sports,,,,,,
+B009IZMUEC,"Tribeca Genuine Wood Performance Headphones for Kindle Fire, Ebony",,Tribeca - Licensed Sports,,,,,,
+B009IZMV6O,"Tribeca Genuine Wood Performance Headphones for Kindle Fire, Bubinga",,Tribeca - Licensed Sports,,,,,,
+B009IZMVT6,"Tribeca Genuine Wood Performance Headphones, Maple",,Tribeca - Licensed Sports,,,,,,
+B009IZMWEU,"Tribeca Genuine Wood Studio Headphones, Bubinga",,Tribeca - Licensed Sports,,8399,USD,,,
+B009K44MMO,"Good Eating's Quick Breads: A Collection of Convenient and Unique Recipes for Muffins, Scones, Loaves and More",,Agate Digital,1748346,,,2012-10-02,99,English
+B009KQ32C8,Backwoods Home Magazine #121 - Jan/Feb 2010,,Backwoods Home Magazine,1702353,,,2010-01-01,189,English
+B009N8WB5M,Backwoods Home Magazine #117 - May/June 2009,,Backwoods Home Magazine,915679,,,2009-05-01,227,English
+B009NHWVIA,"Moshi iVisor XT (HD clear) No-Bubble Screen Protector for Kindle Fire HD 7"" (Previous Generation)",,Moshi,,,,,,
+B009NTEDT8,True Crime: 8 Tales of Murder & Mayham (True Stories by Reader's Digest Book 1),,RDA Digital LLC,580243,,,2012-10-08,64,English
+B009NZWEA2,Belkin Mod Standing Cover for Kindle Fire (will not fit HD models),,Belkin Inc.,,,,2012-09-14,,
+B009OSRAJI,Backwoods Home Magazine #122 - Mar/Apr 2010,,Backwoods Home Magazine,1298407,,,2010-03-01,172,English
+B009P4M0ZK,Backwoods Home Magazine #124 - July/Aug 2010,,Backwoods Home Magazine,562215,,,2010-07-01,173,English
+B009P7PSPQ,300-Calorie Meals--Dinner: 30 Days of Low-Calorie Recipes for Health and Weight Loss (Simply Svelte: 30 Days to Thin),,Simply Svelte,278763,,,2012-10-10,40,English
+B009P7PU0Y,300-Calorie Meals--Breakfast:  30 Days of Low-Calorie Recipes for Health and Weight Loss (Simply Svelte: 30 Days to Thin),,Simply Svelte,1265962,,,2012-10-10,32,English
+B009RESZ6G,50 Nifty Holiday Recipes,,Davis Virtual Assistance,2341666,,,2013-03-31,40,English
+B009RH973I,"Marware MicroShell Folio Lightweight Standing Case for Kindle Fire HD 7"" (Previous Generation), Pink (only fits Kindle Fire HD 7"", Previous Generation)",,MarBlue (Kindle Accessories),,,,,,
+B009RH9FR6,"Marware Revolve Genuine Leather Rotating, Standing Case for Kindle Fire HD 7"" (Previous Generation), Black (only fits Kindle Fire HD 7"", Previous Generation)",,MarBlue (Kindle Accessories),,,,,,
+B009SF5G5M,Backwoods Home Magazine #126 - Nov/Dec 2010,,Backwoods Home Magazine,352322,,,2010-11-01,175,English
+B009THH3OQ,Backwoods Home Magazine #129 - May/June 2011,,Backwoods Home Magazine,1536104,,,2011-05-01,173,English
+B009UMTMJO,12 Real Life Inspirational Angel S.O.S Stories. Miracles can happen! (Help Me Angels Book 3),,,837359,,,2012-10-21,35,English
+B009VNMY2Y,120 Speaking Topics with Sample Answers,,LIKE Test Prep,579550,,,2012-10-22,159,English
+B009X01C64,"Marware Revolve Portrait and Landscape Standing Case for Kindle Fire HD 8.9"", Black (will not fit HDX models)",,MarBlue (Kindle Accessories),,,,,,
+B00A0XV6GE,"iHome Portable, Rechargeable Bluetooth Stereo Speaker System with 3.5mm Headphone/Audio Jack, Black and Red",,"Sound Design, Inc.",,,,,,
+B00A2XKNO8,OtterBox Defender Series for Kindle Fire HD 8.9 (Black),,OtterBox,,,,,,
+B00A3K44BS,AILEEN WUORNUS::DAMSEL FOR SALE: A Tragic Tale Of A Female Serial Killer (TRUE CRIME; BUS STOP READS Book 18),,Goldmineguides.com,,,,2013-12-31,96,English
+B00A3YDWW6,"BUILT Neoprene Sleeve Case for Kindle Fire HD 8.9-Inch, Lush Flower (will not fit HDX)",,Built (Kindle Accessories),,,,2012-11-01,,
+B00A59EWG4,DOROTHEA HELEN PUENTE- SERIAL KILLER: BED & BOARD; (TRUE CRIME; BUS STOP READS Book 19),,Goldmineguides.com,934187,,,2013-12-12,30,English
+B00A6IJ5KC,15 Real Life Angel Stories in the News: Global Evidence of Angelic Assistance (Book) (Help Me Angels Book 4),,,674629,,,2012-11-12,57,English
+B00A7DM3JQ,The 12 Days Of Christmas: A Carol and Count Book,,KiteReaders,1615161,,,2013-11-17,31,English
+B00A950SJY,The Hugh Smith Family Cookbook ~ from generations past to present,,Myna Copeland,3044993,,,2012-11-16,177,English
+B00AHPSTRY,"Moshi iVisor XT (HD clear) No-Bubble Screen Protector for Kindle Fire HD 8.9""",,Moshi,,,,,,
+B00AJIVB4C,Newsweek,,Newsweek LLC,,0,USD,2015-05-01,,English
+B00AJZQC8A,"Buffalo Kindle Fire HD 7"" (Previous Generation) Anti-Glare Screen Protector",,Buffalo,,,,2012-12-20,,
+B00AK3RB7W,Just Desserts,,Tirgearr Publishing,,,,2013-11-26,218,English
+B00AMR3RII,Fifty Shades of Santa: Clean and Wholesome Romance Short Story Anthology,,Welkin Press,2163358,,,2012-12-08,144,English
+B00AN7Q4WI,"kate spade new york Pebbled Leather Case for Kindle Fire HD, Green (only fits Kindle Fire HD 7"", Previous Generation)",,Kate Spade (Kindle Accessories),,,,,,
+B00APDASCM,Soups & Stews 101: Master Soups and Stews with 101 Great Recipes,,Agate Digital,2183470,,,2013-02-26,144,English
+B00AR3OKHE,The Story Bible,,,,,,2012-12-17,962,English
+B00ASNFRIE,Cats in Space: The World's First Anthology Of Feline Science Fiction,,"Tibbles, Inc.",1490255,,,2012-12-23,36,English
+B00AU2K83C,Shadows After Midnight (After Midnight Anthologies Book 1),,Welkin Press,2344864,,,2012-12-27,107,English
+B00B0MN8JW,ISLAND DREAMS (MOTIVATIONAL PHOTOGRAPHY BOOK Book 1),,Happy Language Kids Publications,2368095,,,2013-01-12,36,English
+B00B5HQYB6,"Dylan's Candy Bar ""Lollipop"" Cover for Kindle (will only fit Kindle, Kindle Touch, & Kindle Paperwhite)",,Dylan's Candy Bar,174360,1299,USD,,,
+B00B81PBW2,365 Money Quotes: Build Your Wealth On Wisdom Of The Rich And Famous (Inspirational Quotes Book 1),,Better Life Publishers,1579805,,,2013-01-01,367,English
+B00BGIQPSG,Marware Swurve for Kindle Fire HD 7 (Blue),,Marware,,,,,,
+B00BGIQRNO,"Marware Swurve Kid Proof Case for Kindle Fire, Pink (will not fit HD or HDX models)",,MarBlue (Kindle Accessories),,,,,,
+B00BGIQS1A,Amazon Kindle 5W USB Power Adapter,,"Amazon Digital Services, Inc",,,,2013-09-30,,
+B00BMSDG9G,"Transformations: Stories of Success from Authors, Innovators, and Small Businesses Thriving on Amazon",,,,,,2013-02-27,57,English
+B00BOW41P8,"NYTimes - Breaking Local, National & World News",,The New York Times,,0,USD,2017-02-14,,English
+B00BPXLN6G,287 Happiness Quotes: Inspiration to Fuel Your Pursuit of a Happy and Fulfilled Life (Inspirational Quotes),,Better Life Publishers,1853241,,,2013-03-04,287,English
+B00BVSCG3Y,101 Kids Choice Knock Knock Jokes,,Ron G,1895407,,,2013-03-17,43,English
+B00BWL33H8,"Moshi Mythro Earbuds with Headset Microphone, Gunmetal Gray",,Moshi,,,,,,
+B00BYH3TTM,"LifeForm Capacitive Stylus for Kindle Fire, Kindle Paperwhite and other Touchscreen Devices, Purple",,"Lifeform, Inc.",,,,,,
+B00BYH3Y6U,"PUNCHCASE By Leslie Hsu Colbie Zipper Clutch for All Kindle E-readers and All 7"" Kindle Fire Tablets , Black Bubble Lamb Leather",,Punchcase (Kindle Accessories),,,,,,
+B00C9QOJP0,Backwoods Home Magazine #111 - May/June 2008,,Backwoods Home Magazine,1406278,,,2008-05-01,208,English
+B00CP82E18,"Zeiss LCD Clean Screen Wipes, 20 count",,Zeiss,,500,USD,,,
+B00CP82G0C,Zeiss LCD Screen Gel Cleaning Kit (compatible with all Kindle and Fire models),,Zeiss,,,,,,
+B00CV85G4E,Top 50 Most Delicious Grilled Cheese Sandwich & Panini Recipes (Recipe Top 50's Book 3),,,122008,,,2013-05-17,92,English
+B00CXADBRY,"Moshi AirFoil Screen Protector for Kindle Paperwhite, Kindle, and Kindle Keyboard (2 Pack)",,Moshi,,,,,,
+B00CXADBS8,"Moshi AirFoil Screen Protector for Kindle Paperwhite, Kindle, and Kindle Keyboard (1 Pack)",,Moshi,,,,,,
+B00D6T5NCW,Anything She Wants,,Ladylit,824155,,,2013-06-03,103,English
+B00D6W68KU,Flying Lucky,,B.K. Bryans,450169,,,2013-06-03,165,English
+B00DIEYL3C,"OtterBox Defender Series Protective Case for Kindle Paperwhite, Black",,Otter Box,,,,,,
+B00DP47WPY,Top 50 Most Delicious Homemade Sorbet Recipes (Recipe Top 50's Book 11),,Otherworld Publishing,171569,,,2013-06-27,82,English
+B00DQGIHR8,2-Year SquareTrade Warranty plus Accident Protection for All-New Kindle Paperwhite 3G,,"Square Trade, Inc.",,,,2013-08-01,,
+B00DQGIHZ0,2-Year Protection Plan plus Accident Coverage for Kindle Fire HDX Wi-Fi,,"Square Trade, Inc.",,,,2013-08-01,,
+B00DQGII1I,2-Year Protection Plan plus Accident Protection for Kindle Paperwhite,,SquareTrade,,,,2014-08-27,,
+B00DQGIIJU,"2-Year Protection Plan plus Accident Coverage for Kindle Fire HDX 8.9"" 4G",,KA Images,,,,2013-08-01,,
+B00DQGIIM2,"2-Year Protection Plan plus Accident Coverage for Kindle Fire HDX 8.9"" Wi-Fi",,KA Images,,,,2013-08-01,,
+B00DQZNPAS,"MarBlue Slim Hybrid Standing Case for Kindle Fire HDX 7, Purple",,MarBlue (Kindle Accessories),,,,,,
+B00DQZNWNI,"MarBlue Ultra Lightweight Origin Case for Kindle Fire HDX 7"", Black",,MarBlue (Kindle Accessories),,,,2013-10-16,,
+B00DQZNZDU,"MarBlue Ultra Lightweight Origin Case for Kindle Fire HDX 7"", Purple",,MarBlue (Kindle Accessories),,,,2013-10-16,,
+B00DQZO3JK,"MarBlue Ultra Lightweight Origin Case for Kindle Fire HDX 7"", Lime Green",,MarBlue (Kindle Accessories),,,,2013-10-16,,
+B00DQZOD8Q,Belkin Chambray Cover for Amazon Kindle Fire HDX (Only Fits Kindle Fire HDX 7-Inch),,Belkin Inc.,,,,2013-10-16,,
+B00DQZOIOU,"Zipper Case for Kindle Fire HDX 7"" by Incipio, Black (does not fit previous generation)",,Incipio (Kindle Accessories),,,,,,
+B00DQZP7X6,OTTERBOX 77-33645 DEFENDER SERIES BLK FOR,,Otter Box,,,,,,
+B00DQZPCTA,"Incipio Hive Response Standing Case for Kindle Fire HDX 7"", Black",,Incipio (Kindle Accessories),,,,,,
+B00DQZPM72,"Atlas Waterproof Case for Kindle Fire HDX 7"" by Incipio, Purple",,Incipio (Kindle Accessories),,5000,USD,,,
+B00DQZQ032,"Buffalo Clear Screen Protector Kit for Kindle Fire HDX 7"" (will only fit Kindle Fire HDX 7""), 2 pack",,Buffalo (Kindle Accessories),,,,2013-10-16,,
+B00DQZQ16S,"MarBlue Clear Screen Protector Kit for Kindle Fire HDX 7"" (will only fit Kindle Fire HDX 7"")",,MarBlue (Kindle Accessories),,,,2013-10-16,,
+B00DQZQ5T6,"MarBlue Slim Hybrid Standing Case for the Kindle Fire HD, Black (will only fit 3rd generation)",,MarBlue (Kindle Accessories),,,,,,
+B00DQZQPNM,"Belkin Chambray Cover for Kindle Fire HD (will only fit 3rd generation), Blacktop",,Belkin Inc.,,,,2013-10-02,,
+B00DQZQVH2,"Zipper Case for the Kindle Fire HD by Incipio, Pink (will only fit 3rd generation)",,MarBlue (Kindle Accessories),,1520,USD,,,
+B00DQZRKY0,"OtterBox Defender Standing Case for the Kindle Fire HD, Black (will only fit 3rd generation)",,Otter Box,,,,,,
+B00DQZRQPI,"Incipio Hive Response Standing Case for the Kindle Fire HD, Black (will only fit 3rd geenration)",,Incipio (Kindle Accessories),,,,,,
+B00DQZSAXU,Incipio Butterfly Kids Case for the Kindle Fire HD 7 (will only fit 3rd generation),,Incipio (Kindle Accessories),,,,,,
+B00DQZSBUC,Incipio Firetruck Kids Case for the Kindle Fire HD 7 (will only fit 3rd generation),,Incipio (Kindle Accessories),,,,,,
+B00DQZSDPU,"Buffalo Clear Screen Protector Kit for Kindle Fire HD 7 (will only fit 3rd generation), 2 pack",,Buffalo (Kindle Accessories),,,,2013-10-02,,
+B00DQZSEWM,MarBlue Clear Screen Protector Kit for the Kindle Fire HD 7 (will only fit 3rd generation),,MarBlue (Kindle Accessories),,,,2013-10-02,,
+B00DQZSFSA,MarBlue Anti-Glare Screen Protector Kit for the Kindle Fire HD 7 (will only fit 3rd generation),,MarBlue,325173,,,,,
+B00DQZSIW8,"MarBlue Slim Hybrid Standing Case for Kindle Fire HDX 8.9"", Black",,MarBlue (Kindle Accessories),,,,,,
+B00DQZT0AC,"MarBlue Ultra Lightweight Origin Case for Fire HDX 8.9, Black (will fit 3rd and 4th generation)",,MarBlue (Kindle Accessories),,,,2013-11-07,,
+B00DQZT38G,"Belkin Chambray Cover for Kindle Fire HDX 8.9"" (will only fit Kindle Fire HDX 8.9""), Blacktop",,Belkin Inc.,,,,2013-11-22,,
+B00DQZTJKI,OTTERBOX 77-34772 DEFENDER SERIES BLK FOR AMAZON,,Otterbox,,,,2013-11-11,,
+B00DQZTS8Q,"Marware Clear Screen Protector Kit for Kindle Fire HDX 8.9"" (will only fit Kindle Fire HDX 8.9""), 2 pack",,,,,,,,
+B00DR0B31U,"Amazon Kindle Fire HDX Standing Leather Origami Case (will only fit Kindle Fire HDX 7""), Black",,"Amazon Digital Services, Inc",,,,2013-10-16,,
+B00DR0B7Y8,"Amazon Kindle Fire HDX Standing Polyurethane Origami Case (will only fit Kindle Fire HDX 7""), Mineral Black",,"Amazon Digital Services, Inc",,,,2013-10-16,,
+B00DR0BOSC,"Amazon Kindle Fire HD Standing Leather Origami Case (will only fit Kindle Fire HD 7""), Black",,"Amazon Digital Services, Inc",,1892,USD,,,
+B00DR0BQ0I,"Amazon Kindle Fire HD Standing Polyurethane Origami Case (will only fit 3rd generation), Slate Grey",,"Amazon Digital Services, Inc",,3499,USD,,,
+B00DTWUEV6,Flying Lucky 2,,B.K. Bryans,625480,,,2013-07-07,173,English
+B00DULMXTW,"Amazon Kindle Fire HDX 8.9"" Standing Polyurethane Origami Case (will only fit Kindle Fire HDX 8.9""), Mineral Black",,"Amazon Digital Services, Inc",,2158,USD,2013-11-07,,
+B00DUMWHE2,25 Cool Things to Do with Wine Bottles,,Prime Publishing LLC,,,,2013-07-09,87,English
+B00DUQUUDI,"Kindle Marware Atlas Black Cover (fits Kindle Paperwhite, Kindle, and Kindle Touch) - 'Create Your Own'",,MarBlue (Kindle Accessories),,,,2012-12-31,,
+B00E5UIB16,"BUFFALO Clear Screen Protector Kit for Kindle Fire HDX 8.9 (will only fit Kindle Fire HDX 8.9""), 2 pack",,Buffalo,,1899,USD,,,
+B00E7FMBNI,"Heaven is Real, Heaven Exists; Proof of Life-after Death; Real stories of Near-death experiences. (Heaven is Real; Heaven Exists. Book 1)",,,292721,,,2013-07-27,23,English
+B00E83H6FW,"Belkin QODE Bluetooth Keyboard Folio Case for Kindle Fire HD 7"" (Previous Generation)",,Belkin,,,,2012-12-20,,
+B00E8RDAEO,Backwoods Home Magazine #94 - July/Aug 2005,,Backwoods Home Magazine,112463,,,2005-07-01,187,English
+B00E8RWYXW,First Chapters,,B & H Productions,2612599,,,2013-07-29,183,English
+B00EAR8S76,"Marware SportGrip Silicone Skin for Kindle Paperwhite, Blue (does not fit Kindle or Kindle Touch)",,MarBlue (Kindle Accessories),,,,,,
+B00EBBQFIA,Top 50 Most Delicious Homemade Bread Recipes (Recipe Top 50's Book 15),,,283016,,,2013-08-02,106,English
+B00ECERI32,"Moshi Cirrus Standing Cover for Kindle Paperwhite, Blue",,Moshi,,,,,,
+B00EOE6COQ,Belkin Extra Long 10-Foot / 3-Meter Micro USB Cable (Purple),,Belkin,268641,,,,,
+B00EOE6FUW,"Belkin MiXiT Car Charger + Micro USB Cable for Amazon Fire Phone, all Kindle and Kindle Fire Models, 4 Feet (Purple)",,Belkin,250261,,,,,
+B00EUFP39E,"Snoopy Folio Case for Kindle and Kindle Paperwhite, Snoopy Doghouse",,jWIN,,,,,,
+B00F6E8OUS,"MarBlue Vassen for Kindle Case, Black (Fits Kindle Paperwhite, Kindle and Kindle Touch)",,MarBlue (Kindle Accessories),,,,,,
+B00FE3GXUY,Washington Post Classic,,Washington Post Company,,0,USD,2017-11-15,,English
+B00FQ1NHA8,"Kindle FreeTime Kid-Proof Case for the All New Kindle Fire HD, Blue (does not fit previous generation HD model)",,"Amazon Digital Services, Inc",,,,2013-12-09,,
+B00FRL7424,"MarBlue Sleeq Stylus for Touchscreen Devices, Black",,MarBlue,,,,,,
+B00FZ9SJLS,Moshi iVisor XT (HD clear) No-Bubble Screen Protector for the Kindle Fire HD 7 (will only fit 3rd generation),,Moshi,,1200,USD,,,
+B00FZ9SM4M,"Moshi iVisor XT (HD clear) No-Bubble Screen Protector for the Fire HDX 7""",,Mavogel,,,,,,
+B00FZ9SMVU,"Moshi iVisor XT (HD clear) No-Bubble Screen Protector for the Fire HDX 8.9""",,Moshi,,2999,USD,,,
+B00G3KA7RW,"Jonathan Adler Punctuation Cover - Black/White (Fits Kindle Paperwhite, Kindle & Kindle Touch)",,PUNCHCASE (Factory Direct),,2999,USD,,,
+B00G4FCHH4,"Golla Vincent Cover for Kindle and Kindle Paperwhite, White",,,,,,,,
+B00G4FCKB2,"Golla Angela Cover for Kindle and Kindle Paperwhite, Pink",,Golla,,,,,,
+B00GA55OGE,"Atlas Waterproof Case for Kindle Paperwhite by Incipio, Black",,Incipio (Kindle Accessories),,,,,,
+B00GA55SII,"Kindle Paperwhite Journal  Case by Incipio, Brown",,Incipio (Kindle Accessories),,,,,,
+B00GA55Y0K,"Tek-nical Case for the Kindle Fire HD by Incipio, Black (will only fit 3rd generation)",,Incipio (Kindle Accessories),,1410,USD,,,
+B00GA562HO,"Tek-nical Case for the All New Kindle Fire HDX 7"" by Incipio, Black",,Incipio (Kindle Accessories),,,,,,
+B00GBAD6VS,Top 50 Most Delicious Spring Roll Recipes (Egg rolls - Egg roll recipes) (Recipe Top 50's Book 21),,,278555,,,2013-12-03,144,English
+B00GDDQRH8,Soundmatters foxL DASH A Wireless Bluetooth Soundbar,,SoundMatters (Kindle Accessories),223730,,,,,
+B00GR78KYS,Top 50 Most Delicious Potato Recipes (Recipe Top 50's Book 22),,,114262,,,2013-11-17,132,English
+B00GW5KUCA,"Good Eating's Gluten-Free Recipes: Healthy and Fresh Appetizers, Entrees and Desserts",,Agate Digital,2332000,,,2013-12-17,94,English
+B00GZ0SS58,"30 Quotes For Powerful Living- Using Heart's eye(motivation,Inspiration,leadership and success)",,Pradeep,3016483,,,2014-01-01,103,English
+B00HD05AKA,"Moshi Stanza Duo (2-in-1 Dual Stylus and Pen) for Touchscreen Devices, Silver",,Moshi,,,,,,
+B00HK28ESG,Vegetarian Cookbook: 30 Recipes for 30 Days,,,1336406,,,2013-12-26,50,English
+B00HPM1FZ0,"Belkin Kindle Keyboard Case for All New Kindle Fire HD 7"" & HDX 7"" (fits both devices)",,Belkin Inc.,,5999,USD,2014-01-24,,
+B00HPM1G8Q,Belkin Kindle Keyboard Case for Fire HDX 8.9 (will fit 3rd and 4th generation),,Belkin Inc.,,5000,USD,2014-01-29,,
+B00HUFDI8Y,How To Train A Dog : How To Train Your Dog In 14 Days,,,1029981,,,2014-01-12,30,English
+B00I0FBO2A,9 Types of Copycat Girl Scout Cookies: Your Favorite Copycat Girl Scout Cookie Flavors,,Prime Publishing LLC,,,,2014-01-22,37,English
+B00IDDFFII,11 Sewing Room Ideas: How to Organize Your Room,,"Prime Publishing, LLC",,,,2014-02-10,86,English
+B00IGVHAIK,"Free Story ""The Girl Who Wanted to be a Princess"" from Newfangled Fairy Tales",,Meadowbrook,,,,2014-03-11,16,English
+B00IJXZ65E,"Speed Reading Techniques: Simple, Fun and Proven Strategies to Improve Speed Reading.",,,1999186,,,2014-02-01,31,English
+B00IK7X4MQ,The Action Bible Easter Story (Action Bible Series),,David C. Cook,262918,,,2014-02-20,,English
+B00IMNBQAU,Debt Free: How to Be Debt Free and Have Financial Freedom for Life,,,1538898,,,2014-02-23,28,English
+B00IPK61IM,Free Sewing Patterns for Spring Fashion:  8 DIY Sewing Projects,,"Prime Publishing, LLC",,,,2014-02-27,51,English
+B00IQBO8CQ,The Stone,,,2624732,,,2014-02-28,34,English
+B00J1NEQ66,"Children's books: Exodus:  Bible stories for children (Illustrated bible) (books for kids age 9 12) (Values)(Short stories for children)(Bible study for ... bible, Values, Children's Book Series)",,,823836,,,2014-06-09,23,English
+B00J9P3KBS,PlayPad Pro for Amazon Fire TV,,,,,,,,
+B00JAWNQ9Q,The Adventures of Zeppi - A Penguin Story - #10 Winking Day,,,3303623,,,2014-03-27,48,English
+B00JBO38H8,"Credit Repair: The Secrets of Fixing Your Credit, Up Your Credit Score and Qualify for a Mortgage or",,,1053912,,,2014-03-27,52,English
+B00JFZ8M6U,Lets VDIfy our systems !: What is Desktop Virtualization ! (VDI guides series Book 1),,VDIFY,455969,,,2014-04-02,118,English
+B00JRBOFX6,"The fabulous power of controlling emotions: ""They laughed when I said that I could control my emotions and fast! But when we saw each other again one month later ....""",,,2547355,,,2014-04-16,58,English
+B00JZGFCWG,DRAINED: A Vampire Novel,,,2271420,,,2014-04-27,175,English
+B00K0N1ZF6,"RULES OF ALPHA - How to Become the Great Leader You Were Born to Be ( Life leadership, Self Coaching, Life Coaching, Ledership Coaching, Leadership Principles, Life Coaching Tips, Life Coaching )",,,1551055,,,2014-07-20,30,English
+B00K0W8HTE,Making Money Online: Making Your First Thousand Dollars from the Internet has Never Been this Easy! Generate a Huge Monthly Passive Income from Home. Start ... to Make Money Online with Proven Methods !),,,1450496,,,2014-04-28,51,English
+B00K1U7CTQ,"A Kind of Mad Courage: Short Stories About Mothers, (S)mothers & Others",,Francine LaSala,1678960,,,2014-04-30,414,English
+B00K48VH7S,"Thin Body By Fast Walking: Guide of fast walking for beginners. Find out how to lose weight without dieting, a simple method to lose weight in your daily life.",,,2114474,,,2014-05-03,55,English
+B00K7M3SRS,Paracord bracelet instructions: Popular bracelets explained,,,84835,,,2014-05-07,252,English
+B00KBB4UMM,A Long Lonely Road: Book 16: Bloodmoon,,TJ Reeder,277945,,,2014-05-12,99,English
+B00KD158LW,"Bangkok Travel Guide : Hotels,museum,activities and much more: (Thailand travel guide,southeast asia) (southeast asia travel guide by NrBooks Book 2)",,NrBooks,1146433,,,2014-05-15,38,English
+B00KI9HJ98,THE PATRIOT HANDBOOK - Acting With Valor In Times Of Trial,,,1578438,,,2014-05-22,35,English
+B00KK802SM,Hamuketsu: Hamster Butts So Cute You Scream Long Time!,,Furry Bum Publishers,2395599,,,2014-05-24,14,English
+B00KRPUC0Q,Testing the Submissive: The Story & Confessions of a Masochist,,,505910,,,2014-06-03,198,English
+B00KV3VGOA,"A Single Mom’s Guide to Raising Young Children: Avoid Mistakes and Raise Happy, Healthy Kids (Parenting Help, Single Mom, Raising Kids, Parenting Books, ... Toddlers, Motherhood, Single Parent Book 2)",,,1184717,,,2014-06-08,39,English
+B00L98Y0GW,"Tomato Planting  How to grow tasty tomato (Gardening made easy, seed plantes, container herb gardening) (gardening,companions gardening,container gardening,planting guide Amanda Johnson B Book 2)",,Amanda Johnson B,1141918,,,2014-06-23,68,English
