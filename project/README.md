@@ -216,3 +216,4 @@ Marc has worked on analysis data, scraping data (code and retrieve it), the anal
 Yves has worked on the scraping data (code and retrieve it), the report and will do the final presentation.
 Pierre-Alexandre has worked on the scraping data (retrieving it), and a lot on data analysis about sentiment and score, also on the report.
 
+For the report, it's called ada2017.pdf : https://github.com/mj2905/ProjectMYP/blob/master/project/ada2017.pdf
